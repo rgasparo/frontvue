@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Forzar carga de clases de Tailwind */
+@layer utilities {
+  .tx-bg-blue-800 {
+    @apply bg-blue-800;
+  }
+  .tx-bg-blue-600 {
+    @apply bg-blue-600;
+  }
+}
